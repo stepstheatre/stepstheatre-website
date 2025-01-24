@@ -104,7 +104,7 @@ export default function Home() {
         <div className="mt-32 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
             alt=""
-            src="/images/FlawedChoirPoster25.jpg"
+            src="/images/FlawedChoirPoster25_1.jpg"
             className="aspect-16/9 w-full object-cover xl:rounded-3xl"
           />
         </div>
@@ -112,7 +112,7 @@ export default function Home() {
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
             alt=""
-            src="/images/ZhuchkaPoster25.jpg"
+            src="/images/ZhuchkaPoster25_1.jpg"
             className="aspect-16/9 w-full object-cover xl:rounded-3xl"
           />
         </div>

@@ -67,10 +67,10 @@ const footerNavigation = {
 export default function Home() {
   return (
     <div className="bg-gray-900">
-      <main className="relative isolate">
+      <main className="relative isolate overflow-x-hidden">
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-y-auto overflow-x-hidden blur-3xl"
+          className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-y-visible blur-3xl"
         >
           <div
             style={{
@@ -210,7 +210,7 @@ export default function Home() {
           </div>
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-y-auto overflow-x-hidden blur-3xl"
+            className="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-y-visible blur-3xl"
           >
             <div
               style={{

@@ -70,7 +70,7 @@ export default function Home() {
       <main className="relative isolate">
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-y-visible overflow-x-hidden blur-3xl"
+          className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-y-auto overflow-x-hidden blur-3xl"
         >
           <div
             style={{
@@ -210,7 +210,7 @@ export default function Home() {
           </div>
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-y-visible overflow-x-hidden blur-3xl"
+            className="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-y-auto overflow-x-hidden blur-3xl"
           >
             <div
               style={{

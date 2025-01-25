@@ -44,11 +44,11 @@ const footerNavigation = {
 
 export default function Home() {
   return (
-    <div className="bg-white overflow-x-hidden">
+    <div className="bg-white overflow-hidden">
       <main className="relative isolate">
         <div
           aria-hidden="true"
-          className="absolute top-0 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-visible blur-3xl lg:ml-24 xl:ml-48"
+          className="absolute top-0 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
         >
           <div
             style={{
@@ -160,7 +160,7 @@ export default function Home() {
             <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-gray-900/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
               <div className="h-80 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-80 lg:max-w-sm">
                 <div className="justify-center items-center">
-                <form
+                  <form
                     action="https://www.paypal.com/donate"
                     method="post"
                     target="_blank"
@@ -249,7 +249,7 @@ export default function Home() {
           </div>
           <div
             aria-hidden="true"
-            className="absolute -top-64 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-visible blur-3xl lg:ml-24 xl:ml-48"
+            className="absolute -top-20 right-0 left-1/3 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
           >
             <div
               style={{
@@ -260,9 +260,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </main>
 
-      <footer>
         <div className="mx-auto max-w-7xl px-6 pt-4 pb-8 lg:px-8 lg:pt-4">
           <div className="mt-16 border-t border-gray-900/50 pt-6 sm:mt-6 lg:mt-24">
             <div className="mx-auto max-w-7xl md:flex md:items-center md:justify-between">
@@ -284,7 +282,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </footer>
+      </main>
     </div>
   );
 }

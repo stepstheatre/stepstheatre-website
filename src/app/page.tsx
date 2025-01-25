@@ -48,7 +48,7 @@ export default function Home() {
       <main className="relative isolate">
         <div
           aria-hidden="true"
-          className="absolute top-0 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
+          className="absolute top-0 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-y-visible blur-3xl lg:ml-24 xl:ml-48"
         >
           <div
             style={{
@@ -249,7 +249,7 @@ export default function Home() {
           </div>
           <div
             aria-hidden="true"
-            className="absolute -top-20 right-0 left-1/3 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
+            className="absolute -top-20 right-0 left-1/3 -z-10 -ml-24 transform-gpu overflow-y-visible blur-3xl lg:ml-24 xl:ml-48"
           >
             <div
               style={{

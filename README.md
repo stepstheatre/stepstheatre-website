@@ -1,1 +1,1 @@
-STEPS Theatre Website
+STEPS Theatre Public Website

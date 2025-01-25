@@ -86,13 +86,45 @@ export default function Home() {
             <h1 className="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
               STEPS Theatre
             </h1>
-            <p className="mt-8 text-lg font-medium italic text-pretty text-gray-500 sm:text-xl/8">
-              For over two decades, STEPS Theatre has united actors, directors,
-              and playwrights from around the globe to create groundbreaking
-              multilingual performances. By merging classic literature,
-              contemporary works, and diverse artistic traditions, we aim to
-              inspire and engage audiences worldwide.
-            </p>
+          </div>
+        </div>
+
+        <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <div className="grid max-w-xl grid-cols-1 gap-8 text-base/7 text-gray-500 lg:max-w-none lg:grid-cols-2">
+              <div>
+                <p>
+                  <b>For over two decades</b>, STEPS Theatre has united actors,
+                  directors, and playwrights from around the globe to create{" "}
+                  <i>groundbreaking multilingual performances</i>.
+                </p>
+                <p className="mt-8">
+                  By merging{" "}
+                  <i>
+                    classic literature, contemporary works, and diverse artistic
+                    traditions
+                  </i>
+                  , we aim to <b>inspire and engage audiences worldwide</b>.
+                </p>
+              </div>
+              <div>
+                <p>
+                  Multicultural theater is not unusual in New York, but{" "}
+                  <b>STEPS immediately and confidently</b> took its unique place
+                  as a trailblazer in the rich cultural space of the city.
+                </p>
+                <p className="mt-8">
+                  <b>STEPS Theatre credo</b> is the{" "}
+                  <i>ineluctability of coexistence</i>, where theatre becomes a{" "}
+                  <b>universal language</b>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="px-6 pt-4 lg:px-8">
+          <div className="mx-auto max-w-3xl pt-12 text-center sm:pt-10">
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
               Looking ahead to 2025, we are excited to announce two upcoming
               productions:

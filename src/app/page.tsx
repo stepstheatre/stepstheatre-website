@@ -191,7 +191,7 @@ export default function Home() {
                     <input
                       type="hidden"
                       name="business"
-                      value="sandbox-business@example.com"
+                      value="payments@stepstheatre.com"
                     />
                     <input type="hidden" name="currency_code" value="USD" />
                     <input

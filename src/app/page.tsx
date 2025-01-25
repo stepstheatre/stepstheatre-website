@@ -66,60 +66,88 @@ const footerNavigation = {
 
 export default function Home() {
   return (
-    <div className="bg-gray-900 overflow-x-hidden">
+    <div className="bg-white overflow-x-hidden">
       <main className="relative isolate">
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 top-4 -z-10 flex transform-gpu justify-center overflow-y-visible blur-3xl"
+          className="absolute top-0 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-visible blur-3xl lg:ml-24 xl:ml-48"
         >
           <div
             style={{
               clipPath:
-                "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
+                "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)",
             }}
-            className="aspect-1108/632 w-[69.25rem] flex-none bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+            className="aspect-801/1036 w-[50.0625rem] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
           />
         </div>
 
         <div className="px-6 pt-8 lg:px-8">
           <div className="mx-auto max-w-3xl pt-12 text-center sm:pt-10">
-            <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+            <h1 className="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
               STEPS Theatre
             </h1>
-            <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
+            <p className="mt-8 text-lg font-medium italic text-pretty text-gray-500 sm:text-xl/8">
               For over two decades, STEPS Theatre has united actors, directors,
               and playwrights from around the globe to create groundbreaking
               multilingual performances. By merging classic literature,
               contemporary works, and diverse artistic traditions, we aim to
               inspire and engage audiences worldwide.
-              <br />
-              <br />
-              <br />
+            </p>
+            <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
               Looking ahead to 2025, we are excited to announce two upcoming
               productions:
+            </p>
+            <h4 className="mt-8 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
+              “Flawed Choir”
+            </h4>
+            <p className="mt-0 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+              The English version of{" "}
+              <b>
+                <i>Slava Stepnov&lsquo;s</i>
+              </b>{" "}
+              original play.
+            </p>
+            <h4 className="mt-8 text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
+              “The Mutt”
+            </h4>
+            <p className="mt-0 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+              A reimagining of{" "}
+              <b>
+                <i>Fyodor Dostoevsky&lsquo;s</i>
+              </b>{" "}
+              Brothers Karamazov, adapted for the modern stage by{" "}
+              <b>
+                <i>Anna Nesterova</i>
+              </b>
+              .
+            </p>
+            <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+              In addition, we are launching a brand-new website to keep you
+              updated on all our latest news, events, and productions. Stay
+              tuned!
             </p>
           </div>
         </div>
 
-        <div className="mt-32 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
+        <div className="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
             alt=""
             src="/images/FlawedChoirPoster25_1.jpg"
-            className="aspect-16/9 w-full object-cover xl:rounded-3xl"
+            className="aspect-16/9 w-full object-cover xl:rounded-3xl shadow-2xl"
           />
         </div>
 
-        <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+        <div className="mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
             alt=""
             src="/images/ZhuchkaPoster25_1.jpg"
-            className="aspect-16/9 w-full object-cover xl:rounded-3xl"
+            className="aspect-16/9 w-full object-cover xl:rounded-3xl shadow-2xl"
           />
         </div>
 
-        <div className="relative isolate -z-10 mt-32 sm:mt-40">
+        <div className="relative isolate -z-10 mt-16 sm:mt-20">
           <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
+            <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-gray-900/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
               <div className="h-80 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-80 lg:max-w-sm">
                 <div className="justify-center items-center">
                   <form
@@ -183,17 +211,17 @@ export default function Home() {
               </div>
 
               <div className="w-full flex-auto">
-                <h2 className="text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
+                <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-800 sm:text-5xl">
                   Why We Need Your Help
                 </h2>
-                <p className="mt-6 text-lg/8 text-pretty text-gray-300">
+                <p className="mt-6 text-lg/8 text-pretty text-gray-800">
                   Creating a production of high artistic scope requires more
                   than passion—it demands resources. Your donation will allow us
                   to:
                 </p>
                 <ul
                   role="list"
-                  className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-white sm:grid-cols-2"
+                  className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-gray-800 sm:grid-cols-2"
                 >
                   {benefits.map((benefit) => (
                     <li key={benefit} className="flex gap-x-3">
@@ -210,36 +238,36 @@ export default function Home() {
           </div>
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-y-visible blur-3xl"
+            className="absolute -top-64 right-0 left-1/2 -z-10 -ml-24 transform-gpu overflow-visible blur-3xl lg:ml-24 xl:ml-48"
           >
             <div
               style={{
                 clipPath:
-                  "polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)",
+                  "polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)",
               }}
-              className="aspect-1318/752 w-[82.375rem] flex-none bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+              className="aspect-801/1036 w-[50.0625rem] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
             />
           </div>
         </div>
       </main>
 
-      <footer className="bg-gray-900">
-        <div className="mx-auto max-w-7xl px-6 pt-32 pb-8 lg:px-8 lg:pt-40">
-          <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+      <footer>
+        <div className="mx-auto max-w-7xl px-6 pt-4 pb-8 lg:px-8 lg:pt-4">
+          <div className="mt-16 border-t border-gray-900/50 pt-6 sm:mt-6 lg:mt-24">
             <div className="mx-auto max-w-7xl md:flex md:items-center md:justify-between">
               <div className="flex justify-center gap-x-6 md:order-2">
                 {footerNavigation.social.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-gray-400 hover:text-gray-300"
+                    className="text-gray-600 hover:text-gray-800"
                   >
                     <span className="sr-only">{item.name}</span>
                     <item.icon aria-hidden="true" className="size-6" />
                   </a>
                 ))}
               </div>
-              <p className="mt-8 text-center text-sm/6 text-gray-400 md:order-1 md:mt-0">
+              <p className="mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0">
                 &copy; 2025 STEPS Theatre. All rights reserved.
               </p>
             </div>
